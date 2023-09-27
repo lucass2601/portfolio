@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Fischer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar is-fixed-top">
+        <div class="navbar-brand">
+          <a class="navbar-item" href=""> LUCAS FISCHER </a>
+          <div onclick="toggleMenu()" class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#"> HOME </a>
+            <a class="navbar-item" href="#about"> ABOUT </a>
+            <a class="navbar-item" href="#projects"> PROJECTS </a>
+            <a class="navbar-item" href="#contact"> CONTACT </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero is-fullheight-with-navbar">
+        <div class="hero-body">
+          <p class="hero-title">Hey 👋🏻</p>
+          <p class="subtitle">
+            I'm Lucas, a frontend developer studying Computer Science,
+            passionate about coding and transitioning into fullstack
+            development.
+          </p>
+          <button
+            class="button is-danger"
+            onclick="window.location.href='#projects'"
+          >
+            PROJECTS
+          </button>
+        </div>
+      </section>
+
+      <section id="about" class="about page-section">
+        <p class="title section-header">ABOUT ME</p>
+        <div class="about-content section-content">
+          <section>
+            <h1 class="title">Get to know me!</h1>
+            <p>
+              I'm a frontend developer from Germany, currently pursuing a degree
+              in Computer Science. I enjoy working with React and Vue, I'm
+              taking on freelancing gigs to gain more experience in these areas.
+              I'm aiming to become a fullstack developer and love working on
+              personal projects in my free time.
+            </p>
+          </section>
+          <section>
+            <h1 class="title">My Skills</h1>
+            <div class="skills-container"></div>
+          </section>
+        </div>
+      </section>
+
+      <section id="projects" class="projects page-section">
+        <div class="projects-content">
+          <p class="title section-header">PROJECTS</p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact page-section">
+        <div class="contact-content">
+          <p class="title section-header">CONTACT</p>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>
