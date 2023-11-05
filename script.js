@@ -3,7 +3,7 @@ const toggleMenu = () => {
   el.classList.toggle("is-active");
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "Node.js"];
+const skills = ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "Node.js", "SQL"];
 
 const skillsContainer = document.querySelector(".skills-container");
 
